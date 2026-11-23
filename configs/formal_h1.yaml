@@ -1,0 +1,3 @@
+extends: formal.yaml
+horizons: [1]
+threads: 3

@@ -1,0 +1,4 @@
+# Preserve the downloaded CSV bytes, including their original CRLF line endings.
+datasets/raw/*.csv -text whitespace=cr-at-eol
+# The macOS launcher must keep Unix line endings.
+*.command text eol=lf

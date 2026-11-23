@@ -1,0 +1,36 @@
+# Python environments and local caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.mplconfig/
+.cache/
+.DS_Store
+.idea/
+.vscode/
+.env
+.env.*
+
+# Generated data, trained models and local runs
+reports/
+models/
+datasets/processed/
+datasets/archive/
+datasets/metadata/
+*.joblib
+*.log
+
+# Personal course materials; README is the submission documentation
+/*.md
+!/README.md
+课程报告/
+outputs/
+work/
+*.doc
+*.docx
+*.pdf
+*.zip
+scripts/finalize_formal_experiments.py

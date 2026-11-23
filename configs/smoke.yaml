@@ -1,0 +1,13 @@
+# Integration verification on a single station, not the final experiment.
+extends: base.yaml
+stations: [Aotizhongxin]
+horizons: [1]
+ablations: true
+regressor:
+  max_iter: 40
+  max_leaf_nodes: 15
+feature_selection:
+  top_k: 20
+  mi_max_samples: 4000
+regime:
+  n_init: 3

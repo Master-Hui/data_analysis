@@ -1,0 +1,6 @@
+extends: base.yaml
+cache_directory: reports/cache/formal_statistics
+model_seeds:
+  M3: [42, 2026, 7]
+  H0: [42, 2026, 7]
+  H1: [42, 2026, 7]
